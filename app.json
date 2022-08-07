@@ -1,13 +1,12 @@
 {
-    "name": "st ex",
+    "name": "BDH-Streams-Extractor",
     "description": "roku",
-    "repository": "https://gitub.com/gautmajay52/He-Stck-as-Ciner-epo",
     "keywords": [
-        "Heroku",
-        "bdh",
-        "sdf",
-        "sdf"
+        "HK",
+        "BDH",
+        "Stm"
     ],
+    "repository": "https://gitub.com/gautmajay52/He-Stck-as-Ciner-epo",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -29,10 +28,16 @@
     "stack": "container",
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "heroku/python "
         },
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+            "url": " https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
         }
     ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
