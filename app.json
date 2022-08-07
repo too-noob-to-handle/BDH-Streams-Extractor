@@ -1,16 +1,13 @@
 {
-    "name": "Streams Extractor Bot",
-    "description": "A bot to extract audio and subtitles from video files..",
-    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
+    "name": "st ex",
+    "description": "roku",
+    "repository": "https://gitub.com/gautmajay52/He-Stck-as-Ciner-epo",
     "keywords": [
-        "Streams",
-        "Extractor",
-        "Telegram Bot",
-        "TroJanzHEX"
+        "Heroku",
+        "bdh",
+        "sdf",
+        "sdf"
     ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/TroJanzHEX/Streams-Extractor",
-    "success_url": "https://telegram.dog/TroJanzHEX",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -30,19 +27,4 @@
         }
     },
     "stack": "container"
-    "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
 }
