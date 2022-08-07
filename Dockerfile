@@ -1,9 +1,5 @@
 FROM ubuntu:latest
 
-RUN mkdir ./app
-RUN chmod 777 ./app
-WORKDIR /app
-
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Kolkata
 
