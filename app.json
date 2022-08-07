@@ -26,8 +26,8 @@
             "value": ""
         }
     },
-    "stack": "container"
-        "buildpacks": [
+    "stack": "container",
+    "buildpacks": [
         {
             "url": "heroku/python"
         },
