@@ -29,6 +29,7 @@
             "value": ""
         }
     },
+    "stack": "container"
     "addons": [],
     "buildpacks": [
         {
